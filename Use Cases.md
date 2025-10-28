@@ -42,4 +42,4 @@ Use Cases
 
 Use Case Diagram:
 
-<img width="1395" height="256" alt="image" src="https://github.com/user-attachments/assets/4c0f9e00-9dd4-4f7d-9cbf-0a3399bb3c14" />
+<img width="1395" height="376" alt="image" src="https://github.com/user-attachments/assets/e5fed065-fe19-446f-84e0-4ca777c74796" />
