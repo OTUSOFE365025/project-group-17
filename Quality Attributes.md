@@ -1,6 +1,6 @@
 Quality Attributes
 
-1. Security and Traceability
+1. Security and Traceability 
 
     Associated with UC1, UC2, & UC3
 
