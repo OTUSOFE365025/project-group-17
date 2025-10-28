@@ -15,3 +15,9 @@ Use Cases
 4. Ask Academic or Administrative Questions
   Associated Requirement ID: RS1, RS5, RS10, R5, R6
   The student interacts with the assistant by typing or speaking a question like “When is my next exam?”. The system interprets the natural-language query using AI and retrieves relevant information from the connected systems such as LMS or registration data.
+
+5. Lecturer Posts Course Announcements
+  Associated Requirement ID: RL2, RL8
+  The lecturer, by voice or text command, can create anouncements such as “Post an announcement reminding students about the quiz on Friday.” The assistant authenticates the lecturer, verifies authorization, and updates the course announcement feed.
+
+6. 
