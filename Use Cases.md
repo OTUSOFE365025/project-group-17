@@ -19,5 +19,3 @@ Use Cases
 6. Lecturer Posts Course Announcements
   Associated Requirement ID: RL2, RL8
   The lecturer, by voice or text command, can create anouncements such as “Post an announcement reminding students about the quiz on Friday.” The assistant authenticates the lecturer, verifies authorization, and updates the course announcement feed.
-
-7. 
