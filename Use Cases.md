@@ -1,1 +1,12 @@
-Add the Use Cases to this file
+Use Cases
+
+1. Student Sign-In
+Associated Requirement ID: RS3, RS6, RS7, RL5, RL8
+  The student should be able to securely sign in through the University ID sign in page (SSO). User data is encrypted and decrypted as needed, and users are prompted by different menus depending on their role and status within the University’s system (Student, Alumni, Staff, Professor). The user’s saved settings and customization should stay including their language of choice.
+
+2. Managing Users
+Associated Requirement ID: RA7, RL5
+  The administrators should be able to create or remove users on the platform, and also update the user’s roles and permissions
+
+3. Recieve Personalized Notifications
+Associated Requirement ID: RS2, RS3, RS6
