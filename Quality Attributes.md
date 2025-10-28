@@ -31,5 +31,7 @@ Quality Attributes
   The assistant should automatically adjust to each user’s preference (i.e. language, notification style, interface layout, etc.) after sign-in. It should learn from prior interactions to refine recommendations and responses, creating a personalized and consistent experience across devices and sessions.
 
 9. Performance Efficiency
- Associated with UC4 & UC5
+
+  Associated with UC4 & UC5
+
   Queries and notifications should be processed and displayed within seconds, even under high system load. The system should optimize network and server performance to maintain quick response times, ensuring uninterrupted interaction for all users.
