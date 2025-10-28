@@ -37,3 +37,9 @@ Use Cases
       Associated Requirement ID: RL2, RL8
  
       The lecturer, by voice or text command, can create anouncements such as “Post an announcement reminding students about the quiz on Friday.” The assistant authenticates the lecturer, verifies authorization, and updates the course announcement feed.
+
+
+
+Use Case Diagram:
+
+<img width="1395" height="256" alt="image" src="https://github.com/user-attachments/assets/4c0f9e00-9dd4-4f7d-9cbf-0a3399bb3c14" />
