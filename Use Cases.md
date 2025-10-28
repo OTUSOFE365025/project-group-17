@@ -4,9 +4,11 @@ Use Cases
 
     Associated Requirement ID: RS3, RS6, RS7, RL5, RL8
  
-   The student should be able to securely sign in through the University ID sign in page (SSO). User data is encrypted and decrypted as needed, and users are prompted by different menus depending on their role and status within the University’s system (Student, Alumni, Staff, Professor). The user’s saved settings and customization should stay including their language of choice.
+   The student should be able to securely sign in through the University ID sign in page (SSO).
 
-2. System Maintainer Monitors Performance
+   User data is encrypted and decrypted as needed, and users are prompted by different menus depending on their role and status within the University’s system (Student, Alumni, Staff, Professor). The user’s saved settings and customization should stay including their language of choice.
+
+3. System Maintainer Monitors Performance
 
   Associated Requirement ID: RM2, RM4, RM7, RD2
 
