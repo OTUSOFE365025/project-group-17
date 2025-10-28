@@ -6,6 +6,12 @@ Use Cases
  
    The student should be able to securely sign in through the University ID sign in page (SSO). User data is encrypted and decrypted as needed, and users are prompted by different menus depending on their role and status within the University’s system (Student, Alumni, Staff, Professor). The user’s saved settings and customization should stay including their language of choice.
 
+2. System Maintainer Monitors Performance
+
+  Associated Requirement ID: RM2, RM4, RM7
+
+  The system maintainer accesses a dashboard showing health metrics, latency, and AI accuracy statistics. They can monitor real-time performance, manage access permissions, and ensure the service remains available with minimal downtime.
+
 3. Managing Users
  
     Associated Requirement ID: RA7, RL5
