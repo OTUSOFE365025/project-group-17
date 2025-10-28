@@ -2,7 +2,7 @@ Quality Attributes
 
 1. Security and Traceability
 
-    Associated with UC1 & UC3
+    Associated with UC1, UC2, & UC3
 
     User actions should be tied to the account used to sign into the system, as well as the IP of the device used to sign in. This allows IT to view who does what, retrace and recreate errors as they are reported and take action against malicious users
 
@@ -20,7 +20,7 @@ Quality Attributes
 
 6. Maintainability
 
-    Associated with UC3 & UC6
+    Associated with UC3, UC2, & UC6
 
     System updates, permission changes, and configuration adjustments should be deployable without interrupting user sessions. Logs and modular architecture should allow developers and administrators to quickly isolate, fix, or upgrade specific components without affecting the rest of the platform.
 
