@@ -13,5 +13,5 @@ Use Cases
  The assistant automatically notifies the student about upcoming deadlines, schedule changes, and announcements. While personalizing notifications based on stored user preferences (e.g., language, frequency) and historical data.
 
 4. Ask Academic or Administrative Questions
-  Associated Requirement ID: RS1, R5, R6
-  
+  Associated Requirement ID: RS1, RS5, RS10, R5, R6
+  The student interacts with the assistant by typing or speaking a question like “When is my next exam?”. The system interprets the natural-language query using AI and retrieves relevant information from the connected systems such as LMS or registration data.
