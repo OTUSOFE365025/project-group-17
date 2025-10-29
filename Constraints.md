@@ -22,4 +22,6 @@ and those using other control methods.
 
 CON-4
 
-
+All user data should be encrypted while being stored on system servers. Data will
+only be available to authorized users, and any breaches should be logged. Regular audits
+will be conducted by system operators to ensure compliance with security standards.
