@@ -75,6 +75,7 @@ Step 4: Choose Design Concepts That Satisfy Selected Drivers
 
 
 1: Use a Rich Internet Application frontend
+
 RIAs will support a reactive and accessible UI across various devices.
 Using AJAX and other web technologies to update the page
 without refreshing the page, relying less on a good connection.
@@ -86,6 +87,7 @@ within a browser, perfect for an AI chatbot.
 
 
 2: Use a Service application backend
+
 A service application backend will increase modularity and seperate business
 logic from UI, increasing security. Service application backends are perfect as 
 this type of reference architechture works best when humans are not involved.
@@ -93,6 +95,7 @@ this type of reference architechture works best when humans are not involved.
 
 
 3: Use a four tier deployment structure
+
 Having a four tier deployment structure of client, api, logic and database
 increases security, letting the application logic reside within a protected and
 private network while having the web application on a open public network.
@@ -103,6 +106,7 @@ an additional level is important.
 
 
 4: Introduce caching and load balancing.
+
 Keeping frequently asked questions as well as relevant information to the conversation
 in the cache will reduce response times greatly by reducing database queries.
 Load balancing will reduce the chances of a single serve being overloaded during
