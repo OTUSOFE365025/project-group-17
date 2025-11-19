@@ -1,5 +1,10 @@
 Iteration 1:
 
 Step 1: Confirm Inputs
-  Functional Requirement
-    
+The design purpose is to create an efficient architecture for the deployment of our AIDAP. 
+UC1- Student Sign-In
+UC2- System Maintainer Monitors Performance
+UC3- Managing Users
+UC4- Recieve Personalized Notifications
+UC5- Ask Academic/Administrative Questions
+UC6- Lecturer Posts Course Anouncement
