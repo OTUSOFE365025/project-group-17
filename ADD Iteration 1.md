@@ -65,9 +65,40 @@ CON-1
 CON-3
 
 These five drivers outline a basic structure and starting point for our design.
+Although these are our priority, other drivers are still important and may be adressed.
 
 Step 3: Choose Elements of the System to Refine
 
 We are going to focus on refiing the basic structure we need to create from scratch.
 
 Step 4: Choose Design Concepts That Satisfy Selected Drivers
+1: Use a Rich Internet Application frontend
+RIAs will support a reactive and accessible UI across various devices.
+Using AJAX and other web technologies to update the page
+without refreshing the page, relying less on a good connection.
+RIAs also favor cloud databases instead of local storage, and with a centralized 
+server and database running the application, RIAs fit best.
+RIAs provide a smooth user expeience while keeping the application
+within a browser, perfect for an AI chatbot.
+(CON-1, CON-3, CRN-1)
+2: Use a Service application backend
+A service application backend will increase modularity and seperate business
+logic from UI, increasing security. Service application backends are perfect as 
+this type of reference architechture works best when humans are not involved.
+(CRN-3, UC-1, UC-6)
+3: Use a four tier deployment structure
+Having a four tier deployment structure of client, api, logic and database
+increases security, letting the application logic reside within a protected and
+private network while having the web application on a open public network.
+Considering many students could be asking sensitive questions about their academics
+including their standing or requests for support, having the logic and data be decoupled
+an additional level is important.
+(QA-2, QA-1, CON-4)
+4: Introduce caching and load balancing.
+Keeping frequently asked questions as well as relevant information to the conversation
+in the cache will reduce response times greatly by reducing database queries.
+Load balancing will reduce the chances of a single serve being overloaded during
+peak times such as students requesting their exam schedules around exam season.
+It will also increase throughput by having multiple servers to connect to and respond through.
+(QA-3, QA-6)
+
