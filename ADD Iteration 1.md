@@ -131,7 +131,7 @@ Supports a dashboard populated with metrics and the status of the various parts 
 (UC-2)
 
 4: Create a personalization module
-Stores user preferences regardig language, conversation style, UI mode and notification settings
+Stores user preferences regarding language, conversation style, UI mode and notification settings
 (UC-4, QA-5)
 
 Step 6: Sketch Views and Record Design Decisions
