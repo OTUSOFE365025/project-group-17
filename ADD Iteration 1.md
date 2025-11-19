@@ -129,3 +129,8 @@ Supports a dashboard populated with metrics and the status of the various parts 
 4: Create a personalization module
 Stores user preferences regardig language, conversation style, UI mode and notification settings
 (UC-4, QA-5)
+
+Step 6: Sketch Views and Record Design Decisions
+
+
+Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
