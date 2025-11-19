@@ -2,6 +2,9 @@ Iteration 1:
 
 Step 1: Confirm Inputs
 The design purpose is to create an efficient architecture for the deployment of our AIDAP. 
+AIDAP is a greenfield system, meaning the first iteration goal is to establish an overall system structure (addressing CRN-1)
+
+Step 2:
 UC1- Student Sign-In
 UC2- System Maintainer Monitors Performance
 UC3- Managing Users
