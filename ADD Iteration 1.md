@@ -8,13 +8,14 @@ This is a greenfield system for a university environment. The purpose is to crea
 Primary Functional Requirements (Use Cases):
 The primary use cases for this iteration are:
 
-UC1: Student Sign-In (secure SSO with personalized settings)
+UC1: Student Sign-In 
 
-UC2: System Maintainer Monitors Performance (real-time dashboards, uptime monitoring)
+UC2: System Maintainer Monitors Performance 
 
-UC3: Managing Users (create/remove users, update roles and permissions)
+UC3: Managing Users
 
 These use cases must be implemented first to ensure the platform functions correctly and securely.
+The AI and feature implementation will be included in future iterations once a structure is created.
 
 Quality Attribute Scenarios:
 Selected quality attributes for this iteration (drivers):
@@ -27,7 +28,7 @@ Usability: Medium importance, Medium difficulty, associated with UC1, UC4, UC5
 
 Maintainability: High importance, Medium difficulty, associated with UC3, UC2, UC6
 
-Adaptability/Personalization: Medium importance, Medium difficulty, associated with UC1, UC4, UC5
+Adaptability/Personalization: Low importance, Medium difficulty, associated with UC1, UC4, UC5
 
 Performance Efficiency: High importance, High difficulty, associated with UC4 and UC5
 
