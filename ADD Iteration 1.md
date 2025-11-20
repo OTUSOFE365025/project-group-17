@@ -155,5 +155,5 @@ Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achiev
 |               | CON-4               |                       | Centralized backend and encrypted communication supported through Spring. |
 |               | CRN-1               |                       | RIA architecture helps address cross-device UI consistency. |
 | CRN-2         |                      |                       | No relevant decisions made.                                            |
-|               | CRN-3               |                       | Service-based architecture and Spring Framework support modularity. |
+|               |              |           CRN-3              | Service-based architecture and Spring Framework support modularity. |
 | CRN-4         |                      |                       | No relevant decisions made.                                            |
