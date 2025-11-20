@@ -117,10 +117,11 @@ Spring's dependancy inversion approach also makes testing throughout the develop
 
 Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
-| Design Decision        | Rationale              
-|------------------------|-----------------------------------------
-|Remove all local data   |  
-|storage from the client |
+| Design Decision | Rationale              
+|--------------|-----------------------------------------
+|Remove all local data storage from the client |  Ensures encrypted data stays on secure servers. (CON-4)
+|Create module bases to build application functionality | Creating a modular system that is expandible is of the utmost importance for this project. Taking advantage of the Swing Framework's modules and the Service Architecture back-end will create an outline of a seamless and responsive app. (CRN-3)
+|
 |
 |
 |
@@ -129,15 +130,9 @@ Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
 1: Remove all local data storage from the client
 
-Ensures encrypted data stays on secure servers. 
-(CON-4)
 
 2: Create module bases to build application functionality
 
-Creating a modular system that is expandible is of the utmost importance for this project.
-Taking advantage of the Swing Framework's modules and the Service Architecture back-end 
-will create an outline of a seamless and responsive app.
-(CRN-3)
 
 
 Step 6: Sketch Views and Record Design Decisions
