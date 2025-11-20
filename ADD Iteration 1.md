@@ -115,17 +115,6 @@ Ensures encrypted data stays on secure servers.
 (CON-4)
 
 
-2: Create a dedicated autentication and role-management module
-Supports SSO, traceability and role based UI. 
-(UC-1, UC-3, QA-1)
-
-3: Create a operational monitoring module
-Supports a dashboard populated with metrics and the status of the various parts of the application.
-(UC-2)
-
-4: Create a personalization module
-Stores user preferences regarding language, conversation style, UI mode and notification settings
-(UC-4, QA-5)
 
 Step 6: Sketch Views and Record Design Decisions
 
