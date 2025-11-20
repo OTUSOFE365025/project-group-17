@@ -137,23 +137,23 @@ Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achiev
 
 | Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
 |---------------|----------------------|-----------------------|--------------------------------------------|
-|               | UC-1                |                       |                                            |
+|               | UC-1                |                       | Selected reference architecture identifies components that will support this functionality. |
 | UC-2          |                      |                       | No relevant decisions made.                                           |
 | UC-3          |                      |                       | No relevant decisions made.                                            |
 | UC-4          |                      |                       | No relevant decisions made.                                            |
 | UC-5          |                      |                       | No relevant decisions made.                                            |
-|        | UC-6                |                       |                                            |
-|         | QA-1                |                       |                                            |
-|    | QA-2                |                       |                                            |
+|               | UC-6                |                       | Selected reference architecture identifies components that will support this functionality. |
+|               | QA-1                |                       | Spring Security and backend separation support secure access and traceability. |
+|               | QA-2                |                       | Four-tier deployment provides foundation for redundancy and uptime. |
 | QA-3          |                      |                       | No relevant decisions made.                                            |
 | QA-6          |                      |                       | No relevant decisions made.                                            |
 | QA-7          |                      |                       | No relevant decisions made.                                            |
 | QA-9          |                      |                       | No relevant decisions made.                                            |
-|      | CON-1               |                       |                                            |
+|               | CON-1               |                       | RIA structure supports multi-device access. |
 | CON-2         |                      |                       | No relevant decisions made.                                            |
-| | CON-3               |                       |                                            |
-|         | CON-4               |                       |                                            |
-|    | CRN-1               |                       |                                            |
+|               | CON-3               |                       | RIA structure supports accessibility considerations. |
+|               | CON-4               |                       | Centralized backend and encrypted communication supported through Spring. |
+|               | CRN-1               |                       | RIA architecture helps address cross-device UI consistency. |
 | CRN-2         |                      |                       | No relevant decisions made.                                            |
-|       | CRN-3               |                       |                                            |
+|               | CRN-3               |                       | Service-based architecture and Spring Framework support modularity. |
 | CRN-4         |                      |                       | No relevant decisions made.                                            |
