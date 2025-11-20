@@ -96,6 +96,7 @@ Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
 
 Step 6: Sketch Views and Record Design Decisions
+
 <img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/2ba0b550-2813-458a-a367-33af9557d011" />
 
 <img width="668" height="824" alt="image" src="https://github.com/user-attachments/assets/063c9b9d-6a7e-4283-9656-c3f6734f15d8" />
