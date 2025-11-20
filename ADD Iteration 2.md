@@ -11,62 +11,60 @@ In this iteration we will focus on refining the core structural elements needed 
 Step 4: Choosing Design Concepts that satisfy the selected drivers
 <h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
 
+<h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
+
 <table>
   <tr>
-    <td><strong>Design Concept</strong></td>
+    <td><strong>Design Decision</strong></td>
     <td><strong>Rationale</strong></td>
-    <td><strong>Supported Drivers</strong></td>
   </tr>
 
   <tr>
-    <td><strong>Refining the Rich Internet Application (RIA) Frontend</strong></td>
+    <td><strong>Refine the Rich Internet Application (RIA) Frontend</strong></td>
     <td>
-      This iteration refines the RIA introduced in Iteration 1 by focusing on how it supports the primary system workflows. 
-      The RIA enables responsive input validation, dynamic updates using AJAX, accessibility hooks for screen readers, and consistent 
-      multi-device behavior. These improvements support the UI components required for sign-in, monitoring dashboards, and 
-      user-management panels.
+      The RIA frontend continues to be the best approach for supporting reactive, accessible,
+      and device-independent UI behaviour. It enables dynamic page updates using AJAX,
+      supports screen readers, and ensures consistent behavior across multiple device types.
+      These refinements will help us shape the login interface, monitoring dashboards,
+      and administrative panels. <br><br>
+      <em>(UC-1, UC-2, UC-3, CON-1, CON-3, CRN-1)</em>
     </td>
-    <td>CON-1, CON-3, CRN-1, UC-1, UC-2, UC-3</td>
   </tr>
 
   <tr>
-    <td><strong>Refining the Service-Based Application Backend</strong></td>
+    <td><strong>Refine the Service-Based Application Backend</strong></td>
     <td>
-      The service-backend structure is expanded by assigning responsibility to modules that directly support the three primary use cases. 
-      AuthenticationService manages credential verification and session creation, MetricsService retrieves and processes system performance data, 
-      and UserAdminService handles user roles and permissions. This refinement ensures a modular and secure backend by separating 
-      UI logic from sensitive operations.
+      We extend the backend by assigning more specific responsibilities to the core services.
+      Separating authentication, metric processing, and user-role administration keeps the
+      backend modular, secure, and easier to maintain as the application grows. <br><br>
+      <em>(UC-1, UC-2, UC-3, CRN-3, QA-1)</em>
     </td>
-    <td>CRN-3, UC-1, UC-2, UC-3, QA-1</td>
   </tr>
 
   <tr>
-    <td><strong>Applying the Four-Tier Deployment Structure</strong></td>
+    <td><strong>Apply the Four-Tier Deployment Structure</strong></td>
     <td>
-      The four-tier structure (Client → API → Logic → Database) is now aligned with workflow behavior. The client layer handles 
-      dynamic UI actions, the API layer routes sign-in, monitoring, and administrative requests, the logic layer performs validation 
-      and auditing, and the database layer stores users, metrics, sessions, and logs. This ensures isolation between public UI 
-      requests and sensitive backend processes while improving system reliability.
+      We reuse and refine the four-tier structure introduced earlier by clearly mapping 
+      each use case to the Client, API, Logic, and Database tiers. This structure increases
+      security by isolating sensitive logic from public UI requests and allows clean routing
+      for sign-in, monitoring, and administrative workflows. <br><br>
+      <em>(UC-1, UC-2, UC-3, QA-2, QA-1, CON-4)</em>
     </td>
-    <td>QA-2, QA-1, CON-4, UC-2, UC-3</td>
   </tr>
 
   <tr>
-    <td><strong>Using the Spring Framework for Module Definition</strong></td>
+    <td><strong>Use the Spring Framework for Module Definition</strong></td>
     <td>
-      Spring is further refined in this iteration to support the system’s structural requirements. Spring Security provides authentication flows, 
-      Spring Boot services formalize metrics retrieval, dependency injection simplifies controller-service wiring, and Spring’s modular design 
-      prepares AIDAP for future AI extensions. This strengthens security, maintainability, and scalability.
+      Spring remains the foundation for defining backend modules. Its built-in authentication
+      tools support SSO, while Spring Boot helps formalize metric retrieval. Dependency injection
+      simplifies service wiring, and Spring’s modular structure positions AIDAP for future AI
+      capabilities. These refinements improve maintainability and scalability across the system. <br><br>
+      <em>(UC-1, UC-2, UC-3, QA-3, QA-4, CON-4)</em>
     </td>
-    <td>CRN-3, QA-4, CON-4, UC-1, UC-3</td>
   </tr>
 
 </table>
    
-
-STEP 5:
-
-<h2>Step 5: Element Instantiation, Responsibilities, and Interface Definition</h2>
 
 <h2>Step 5: Element Instantiation, Responsibilities, and Interface Definition</h2>
 
@@ -82,9 +80,8 @@ STEP 5:
     <td>
       This module will handle all sign-in activity, manage user roles, and enforce access control.
       It ensures users are authenticated through SSO, their actions can be traced, and each role
-      only has access to the features they're authorized to use.
+      only has access to the features they're authorized to use. (UC-1, UC-3, QA-1)
     </td>
-    <td>UC-1, UC-3, QA-1</td>
   </tr>
 
   <tr>
@@ -92,9 +89,8 @@ STEP 5:
     <td>
       This module will provide the system maintainer with a dashboard that shows real-time metrics
       and the current health of different parts of the application. This will help maintainers track
-      performance, identify issues early, and ensure the system stays available and stable.
+      performance, identify issues early, and ensure the system stays available and stable. (UC-2)
     </td>
-    <td>UC-2</td>
   </tr>
 
   <tr>
@@ -102,9 +98,8 @@ STEP 5:
     <td>
       This module will store each user's personal preferences, such as their chosen language,
       conversation style, UI mode, and notification settings. It supports a more tailored
-      user experience and allows the platform to adapt to individual needs over time.
+      user experience and allows the platform to adapt to individual needs over time. (UC-4, QA-5)
     </td>
-    <td>UC-4, QA-5</td>
   </tr>
 
 </table>
