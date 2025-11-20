@@ -118,12 +118,43 @@ Spring's dependancy inversion approach also makes testing throughout the develop
 Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
 1: Remove all local data storage from the client
+
 Ensures encrypted data stays on secure servers. 
 (CON-4)
 
+2: Create module bases to build application functionality
+
+Creating a modular system that is expandible is of the utmost importance for this project.
+Taking advantage of the Swing Framework's modules and the Service Architecture back-end 
+will create an outline of a seamless and responsive app.
+(CRN-3)
 
 
 Step 6: Sketch Views and Record Design Decisions
 
 
 Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
+
+| Not Addressed | Partially Addressed  | Completely Addressed  | Design Decisions Made During the Iteration |
+|---------------|----------------------|-----------------------|--------------------------------------------|
+| UC-1          |                      |                       |                                            |
+| UC-2          |                      |                       |                                            |
+| UC-3          |                      |                       |                                            |
+| UC-4          |                      |                       |                                            |
+| UC-5          |                      |                       |                                            |
+| UC-6          |                      |                       |                                            |
+| QA-1          |                      |                       |                                            |
+| QA-2          |                      |                       |                                            |
+| QA-3          |                      |                       |                                            |
+| QA-6          |                      |                       |                                            |
+| QA-7          |                      |                       |                                            |
+| QA-9          |                      |                       |                                            |
+| CON-1         |                      |                       |                                            |
+| CON-2         |                      |                       |                                            |
+| CON-3         |                      |                       |                                            |
+| CON-4         |                      |                       |                                            |
+| CRN-1         |                      |                       |                                            |
+| CRN-2         |                      |                       |                                            |
+| CRN-3         |                      |                       |                                            |
+| CRN-4         |                      |                       |                                            |
+
