@@ -73,6 +73,8 @@ Although these are our priority, other drivers are still important and may be ad
 Step 3: Choose Elements of the System to Refine
 
 We are going to focus on refiing the basic structure we need to create from scratch.
+<img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/045f2d1a-45af-49ee-a2d0-a17c9c2a31c4" />
+
 
 
 Step 4: Choose Design Concepts That Satisfy Selected Drivers
@@ -94,6 +96,9 @@ Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
 
 Step 6: Sketch Views and Record Design Decisions
+<img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/2ba0b550-2813-458a-a367-33af9557d011" />
+
+<img width="668" height="824" alt="image" src="https://github.com/user-attachments/assets/063c9b9d-6a7e-4283-9656-c3f6734f15d8" />
 
 
 Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
