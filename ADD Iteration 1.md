@@ -135,26 +135,25 @@ Step 6: Sketch Views and Record Design Decisions
 
 Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
 
-| Not Addressed | Partially Addressed  | Completely Addressed  | Design Decisions Made During the Iteration |
+| Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
 |---------------|----------------------|-----------------------|--------------------------------------------|
-| UC-1          |                      |                       |                                            |
+|                | UC-1                |                       |                                            |
 | UC-2          |                      |                       |                                            |
 | UC-3          |                      |                       |                                            |
 | UC-4          |                      |                       |                                            |
 | UC-5          |                      |                       |                                            |
-| UC-6          |                      |                       |                                            |
-| QA-1          |                      |                       |                                            |
-| QA-2          |                      |                       |                                            |
+|        | UC-6                |                       |                                            |
+|         | QA-1                |                       |                                            |
+|    | QA-2                |                       |                                            |
 | QA-3          |                      |                       |                                            |
 | QA-6          |                      |                       |                                            |
 | QA-7          |                      |                       |                                            |
 | QA-9          |                      |                       |                                            |
-| CON-1         |                      |                       |                                            |
+|      | CON-1               |                       |                                            |
 | CON-2         |                      |                       |                                            |
-| CON-3         |                      |                       |                                            |
-| CON-4         |                      |                       |                                            |
-| CRN-1         |                      |                       |                                            |
+| | CON-3               |                       |                                            |
+|         | CON-4               |                       |                                            |
+|    | CRN-1               |                       |                                            |
 | CRN-2         |                      |                       |                                            |
-| CRN-3         |                      |                       |                                            |
+|       | CRN-3               |                       |                                            |
 | CRN-4         |                      |                       |                                            |
-
