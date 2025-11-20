@@ -137,23 +137,23 @@ Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achiev
 
 | Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
 |---------------|----------------------|-----------------------|--------------------------------------------|
-|                | UC-1                |                       |                                            |
-| UC-2          |                      |                       |                                            |
-| UC-3          |                      |                       |                                            |
-| UC-4          |                      |                       |                                            |
-| UC-5          |                      |                       |                                            |
+|               | UC-1                |                       |                                            |
+| UC-2          |                      |                       | No relevant decisions made.                                           |
+| UC-3          |                      |                       | No relevant decisions made.                                            |
+| UC-4          |                      |                       | No relevant decisions made.                                            |
+| UC-5          |                      |                       | No relevant decisions made.                                            |
 |        | UC-6                |                       |                                            |
 |         | QA-1                |                       |                                            |
 |    | QA-2                |                       |                                            |
-| QA-3          |                      |                       |                                            |
-| QA-6          |                      |                       |                                            |
-| QA-7          |                      |                       |                                            |
-| QA-9          |                      |                       |                                            |
+| QA-3          |                      |                       | No relevant decisions made.                                            |
+| QA-6          |                      |                       | No relevant decisions made.                                            |
+| QA-7          |                      |                       | No relevant decisions made.                                            |
+| QA-9          |                      |                       | No relevant decisions made.                                            |
 |      | CON-1               |                       |                                            |
-| CON-2         |                      |                       |                                            |
+| CON-2         |                      |                       | No relevant decisions made.                                            |
 | | CON-3               |                       |                                            |
 |         | CON-4               |                       |                                            |
 |    | CRN-1               |                       |                                            |
-| CRN-2         |                      |                       |                                            |
+| CRN-2         |                      |                       | No relevant decisions made.                                            |
 |       | CRN-3               |                       |                                            |
-| CRN-4         |                      |                       |                                            |
+| CRN-4         |                      |                       | No relevant decisions made.                                            |
