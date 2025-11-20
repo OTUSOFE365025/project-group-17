@@ -9,36 +9,59 @@ Step 3: Choose Elements of the System to Refine
 In this iteration we will focus on refining the core structural elements needed to establish the basic structure for AIDAP.
 
 Step 4: Choosing Design Concepts that satisfy the selected drivers
-1. Refining the Rich Internet Application (RIA) Frontend:
-   We want to continue to refine the RIA mentioned in iteration 1 by primarily focusing on how the RIA supports the specific primary workflows:
-   For UC-1 (sign in), UC-2(monitoring), and UC-3(user management), the RIA will provide:
-   - Responsive input validation
-   - Dynamic component updates using AJAX
-   - Accessibility hooks for screen readers (CON-3)
-   - Consistent multi-device behaviour (CON-1)
-In this stage of the process, we begin defining the UI components that will be required later, such as the login interface, monitoring dashoard layouts, and administrative panels and these will support CON-1, CON-2, and CRN-1
-2. Refining the Service-Based Application Backend:
-   In this iteration we want to extend the service-backend concept by assigning clear responsibilities to services that directly support our three use cases which include:
-   - Authentication-Service (UC-1)
-   - Metrics Service (UC-2)
-   - User-Admin-Service (UC-3)
-  This will ensure that the backend remains modular and secure by separating UI logic from sensitive operations like account verification, metrics processing and user role administration and these will support UC-1, UC-3, CRN-3, QA-1)
+<h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
 
-3. Applying the Four-Tier Deployment Structure to Use Cases:
-   In iteration 1, we had a four-tier structure that we want to apply to the workkflow behaviour for this iteration:
-   - The client tier will handle dynamic UI interations
-   - The API tier will route sign-in, monitoring, and admin requests
-   - The application logic tier wil perform validation, audiiting, and role checks
-   - The database tier will store users, metris, sessions and also bugs
-In implementing this, we believe that it will ensure isiolation between public UI requests and sensitive backend operations, which is critical for system maintainers monitoring uptime (UC-2), and administrators modifying users (UC-3). These wil support QA-2, QA-1, and CON-4
+<table>
+  <tr>
+    <td><strong>Design Concept</strong></td>
+    <td><strong>Rationale</strong></td>
+    <td><strong>Supported Drivers</strong></td>
+  </tr>
 
-4. Using the Spring Frameword for Module Definition
-   So we selected Spring as the core framework that we'll use in Iteration 1, and we intend to refine its application more in Iteration 2:
-   - Spring Security defines authentication flows (UC-1)
-   - Spring Boot services will formalize metrics retrieval (UC-2)
-   - Dependency injection will simplify controller/service wiring (UC-3)
-   - Spring’s modular structure will prepare AIDAP for future AI extensions
-This deepens the maintainability and scalability benefits originally identified and will support CRN-3, QA-4, CON-4 and UC-1.
+  <tr>
+    <td><strong>Refining the Rich Internet Application (RIA) Frontend</strong></td>
+    <td>
+      This iteration refines the RIA introduced in Iteration 1 by focusing on how it supports the primary system workflows. 
+      The RIA enables responsive input validation, dynamic updates using AJAX, accessibility hooks for screen readers, and consistent 
+      multi-device behavior. These improvements support the UI components required for sign-in, monitoring dashboards, and 
+      user-management panels.
+    </td>
+    <td>CON-1, CON-3, CRN-1, UC-1, UC-2, UC-3</td>
+  </tr>
+
+  <tr>
+    <td><strong>Refining the Service-Based Application Backend</strong></td>
+    <td>
+      The service-backend structure is expanded by assigning responsibility to modules that directly support the three primary use cases. 
+      AuthenticationService manages credential verification and session creation, MetricsService retrieves and processes system performance data, 
+      and UserAdminService handles user roles and permissions. This refinement ensures a modular and secure backend by separating 
+      UI logic from sensitive operations.
+    </td>
+    <td>CRN-3, UC-1, UC-2, UC-3, QA-1</td>
+  </tr>
+
+  <tr>
+    <td><strong>Applying the Four-Tier Deployment Structure</strong></td>
+    <td>
+      The four-tier structure (Client → API → Logic → Database) is now aligned with workflow behavior. The client layer handles 
+      dynamic UI actions, the API layer routes sign-in, monitoring, and administrative requests, the logic layer performs validation 
+      and auditing, and the database layer stores users, metrics, sessions, and logs. This ensures isolation between public UI 
+      requests and sensitive backend processes while improving system reliability.
+    </td>
+    <td>QA-2, QA-1, CON-4, UC-2, UC-3</td>
+  </tr>
+
+  <tr>
+    <td><strong>Using the Spring Framework for Module Definition</strong></td>
+    <td>
+      Spring is further refined in this iteration to support the system’s structural requirements. Spring Security provides authentication flows, 
+      Spring Boot services formalize metrics retrieval, dependency injection simplifies controller-service wiring, and Spring’s modular design 
+      prepares AIDAP for future AI extensions. This strengthens security, maintainability, and scalability.
+    </td>
+    <td>CRN-3, QA-4, CON-4, UC-1, UC-3</td>
+  </tr>
+
+</table>
    
 
 STEP 5:
