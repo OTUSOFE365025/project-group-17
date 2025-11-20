@@ -105,7 +105,14 @@ an additional level is important.
 (QA-2, QA-1, CON-4)
 
 
+4: Use the Spring Framework
 
+The Spring framework is a good choice for an AI web app. With easy integration with
+other frameworks as well as the recent release of the Spring AI extension for natural 
+language understanding, modularity and ease of maintainance are two main benefits. 
+Spring Security also supports our SSO sign in, encrypted communication and role-based access control.
+Spring's dependancy inversion approach also makes testing throughout the development cycle easier.
+(CRN-3, CON-4, UC-1)
 
 
 Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
