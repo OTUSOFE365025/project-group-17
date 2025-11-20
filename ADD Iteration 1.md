@@ -54,7 +54,9 @@ CRN-3: Modular system for university ecosystem
 
 CRN-4: Minimize data loss and downtime through backups
 
+
 Step 2: Establish Iteration Goal by Selecting Drivers
+
 Since the AIDAP is a greenfield system, its important to establish structure as soon as possible.
 
 We will focus on drivers related to structure:
@@ -67,52 +69,20 @@ CON-3
 These five drivers outline a basic structure and starting point for our design.
 Although these are our priority, other drivers are still important and may be adressed.
 
+
 Step 3: Choose Elements of the System to Refine
 
 We are going to focus on refiing the basic structure we need to create from scratch.
 
+
 Step 4: Choose Design Concepts That Satisfy Selected Drivers
 
-
-1: Use a Rich Internet Application frontend
-
-RIAs will support a reactive and accessible UI across various devices.
-Using AJAX and other web technologies to update the page
-without refreshing the page, relying less on a good connection.
-RIAs also favor cloud databases instead of local storage, and with a centralized 
-server and database running the application, RIAs fit best.
-RIAs provide a smooth user expeience while keeping the application
-within a browser, perfect for an AI chatbot.
-(CON-1, CON-3, CRN-1)
-
-
-2: Use a Service application backend
-
-A service application backend will increase modularity and seperate business
-logic from UI, increasing security. Service application backends are perfect as 
-this type of reference architechture works best when humans are not involved.
-(CRN-3, UC-1, UC-6)
-
-
-3: Use a four tier deployment structure
-
-Having a four tier deployment structure of client, api, logic and database
-increases security, letting the application logic reside within a protected and
-private network while having the web application on a open public network.
-Considering many students could be asking sensitive questions about their academics
-including their standing or requests for support, having the logic and data be decoupled
-an additional level is important.
-(QA-2, QA-1, CON-4)
-
-
-4: Use the Spring Framework
-
-The Spring framework is a good choice for an AI web app. With easy integration with
-other frameworks as well as the recent release of the Spring AI extension for natural 
-language understanding, modularity and ease of maintainance are two main benefits. 
-Spring Security also supports our SSO sign in, encrypted communication and role-based access control.
-Spring's dependancy inversion approach also makes testing throughout the development cycle easier.
-(CRN-3, CON-4, UC-1)
+| Design Decision | Rationale              
+|--------------|-----------------------------------------
+| Use a Rich Internet Application frontend | RIAs will support a reactive and accessible UI across various devices. Using AJAX and other web technologies to update the page without refreshing the page, relying less on a good connection. RIAs also favor cloud databases instead of local storage, and with a centralized server and database running the application, RIAs fit best. RIAs provide a smooth user expeience while keeping the application within a browser, perfect for an AI chatbot. (CON-1, CON-3, CRN-1)
+| Use a Service application backend | A service application backend will increase modularity and seperate business logic from UI, increasing security. Service application backends are perfect as this type of reference architechture works best when humans are not involved. (CRN-3, UC-1, UC-6)
+| Use a four tier deployment structure | Having a four tier deployment structure of client, api, logic and database increases security, letting the application logic reside within a protected and private network while having the web application on a open public network. Considering many students could be asking sensitive questions about their academics including their standing or requests for support, having the logic and data be decoupled an additional level is important. (QA-2, QA-1, CON-4)
+| Use the Spring Framework | The Spring framework is a good choice for an AI web app. With easy integration with other frameworks as well as the recent release of the Spring AI extension for natural language understanding, modularity and ease of maintainance are two main benefits. Spring Security also supports our SSO sign in, encrypted communication and role-based access control. Spring's dependancy inversion approach also makes testing throughout the development cycle easier. (CRN-3, CON-4, UC-1)
 
 
 Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
@@ -121,18 +91,6 @@ Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 |--------------|-----------------------------------------
 |Remove all local data storage from the client |  Ensures encrypted data stays on secure servers. (CON-4)
 |Create module bases to build application functionality | Creating a modular system that is expandible is of the utmost importance for this project. Taking advantage of the Swing Framework's modules and the Service Architecture back-end will create an outline of a seamless and responsive app. (CRN-3)
-|
-|
-|
-|
-|
-
-
-1: Remove all local data storage from the client
-
-
-2: Create module bases to build application functionality
-
 
 
 Step 6: Sketch Views and Record Design Decisions
