@@ -66,14 +66,43 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
 
 STEP 5:
 
-1: Create a dedicated autentication and role-management module
-Supports SSO, traceability and role based UI. 
-(UC-1, UC-3, QA-1)
+<h2>Step 5: Element Instantiation, Responsibilities, and Interface Definition</h2>
 
-2: Create a operational monitoring module
-Supports a dashboard populated with metrics and the status of the various parts of the application.
-(UC-2)
+<table>
+  <tr>
+    <td><strong>Module</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Supported Drivers</strong></td>
+  </tr>
 
-3: Create a personalization module
-Stores user preferences regarding language, conversation style, UI mode and notification settings
-(UC-4, QA-5)
+  <tr>
+    <td><strong>Authentication & Role-Management Module</strong></td>
+    <td>
+      Responsible for handling SSO login flows, managing user roles, enforcing access control,
+      and supporting traceability across system actions. Establishes secure session handling
+      and ensures sensitive operations are restricted to authorized users.
+    </td>
+    <td>UC-1, UC-3, QA-1</td>
+  </tr>
+
+  <tr>
+    <td><strong>Operational Monitoring Module</strong></td>
+    <td>
+      Provides a centralized dashboard populated with system metrics, performance indicators, 
+      and the real-time status of backend services. Supports system maintainers in monitoring 
+      uptime, request throughput, and potential issues.
+    </td>
+    <td>UC-2</td>
+  </tr>
+
+  <tr>
+    <td><strong>Personalization Module</strong></td>
+    <td>
+      Stores and retrieves user preferences such as language, conversation style, UI mode,
+      and notification settings. Supports personalization features that enhance the 
+      end-user experience.
+    </td>
+    <td>UC-4, QA-5</td>
+  </tr>
+
+</table>
