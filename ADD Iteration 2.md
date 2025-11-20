@@ -68,6 +68,8 @@ STEP 5:
 
 <h2>Step 5: Element Instantiation, Responsibilities, and Interface Definition</h2>
 
+<h2>Step 5: Element Instantiation, Responsibilities, and Interface Definition</h2>
+
 <table>
   <tr>
     <td><strong>Module</strong></td>
@@ -78,9 +80,9 @@ STEP 5:
   <tr>
     <td><strong>Authentication & Role-Management Module</strong></td>
     <td>
-      Responsible for handling SSO login flows, managing user roles, enforcing access control,
-      and supporting traceability across system actions. Establishes secure session handling
-      and ensures sensitive operations are restricted to authorized users.
+      This module will handle all sign-in activity, manage user roles, and enforce access control.
+      It ensures users are authenticated through SSO, their actions can be traced, and each role
+      only has access to the features they're authorized to use.
     </td>
     <td>UC-1, UC-3, QA-1</td>
   </tr>
@@ -88,9 +90,9 @@ STEP 5:
   <tr>
     <td><strong>Operational Monitoring Module</strong></td>
     <td>
-      Provides a centralized dashboard populated with system metrics, performance indicators, 
-      and the real-time status of backend services. Supports system maintainers in monitoring 
-      uptime, request throughput, and potential issues.
+      This module will provide the system maintainer with a dashboard that shows real-time metrics
+      and the current health of different parts of the application. This will help maintainers track
+      performance, identify issues early, and ensure the system stays available and stable.
     </td>
     <td>UC-2</td>
   </tr>
@@ -98,9 +100,9 @@ STEP 5:
   <tr>
     <td><strong>Personalization Module</strong></td>
     <td>
-      Stores and retrieves user preferences such as language, conversation style, UI mode,
-      and notification settings. Supports personalization features that enhance the 
-      end-user experience.
+      This module will store each user's personal preferences, such as their chosen language,
+      conversation style, UI mode, and notification settings. It supports a more tailored
+      user experience and allows the platform to adapt to individual needs over time.
     </td>
     <td>UC-4, QA-5</td>
   </tr>
