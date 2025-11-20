@@ -117,6 +117,16 @@ Spring's dependancy inversion approach also makes testing throughout the develop
 
 Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 
+| Design Decision        | Rationale              
+|------------------------|-----------------------------------------
+|Remove all local data   |  
+|storage from the client |
+|
+|
+|
+|
+
+
 1: Remove all local data storage from the client
 
 Ensures encrypted data stays on secure servers. 
