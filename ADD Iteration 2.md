@@ -1,24 +1,3 @@
-Step 1: Reviewing Inputs
-Before starting Iteration 2, we reviewed the architectural drivers and system inputs defined in iteration 1 to ensure that their priorities were still accurate and aligned with the current system needs.
-Since Iteration 2 more focuses on the primary workflow of the platform, the drivers influencing this iteration still are:
-
-UC-1: Student Sign-in
-UC-2: System Maintainer Monitors Performance
-UC-3: Managing Users
-
-Quality Attributes
-QA-1 Security & Traceability
-QA-2 Availability
-QA-3 Usability
-QA-4 Maintainability
-QA-6 Performance Efficiency
-
-Constraints
-CON-1: Multi-device and multi-OS support
-CON-2: High concurrency across user sessions
-CON-3: Accessibility and inclusive UI requirements
-CON-4: Data protection through encryption and audit logging
-
 Step 2: Establish Iteration Goal
 The goal of this iteration is to identify and define sructures that directly support the primary use cases, and these include:
 UC-1
@@ -27,7 +6,10 @@ CON-1
 CON-3
 
 Step 3: Choose Elements of the System to Refine
-This 
+In this iteration we will focus on refining the core structural elements needed to establish the basic structure for AIDAP.
+
+Step 4: Choosing Design Concepts that satisfy the selected drivers
+
 
 
 
