@@ -1,14 +1,13 @@
-Step 2: Establish Iteration Goal
+<h2>Step 2: Establish Iteration Goal </h2>
 The goal of this iteration is to identify and define sructures that directly support the primary use cases, and these include:
 UC-1
 CRN-1
 CON-1
 CON-3
 
-Step 3: Choose Elements of the System to Refine
+<h2>Step 3: Choose Elements of the System to Refine</h2>
 In this iteration we will focus on refining the core structural elements needed to establish the basic structure for AIDAP.
 
-Step 4: Choosing Design Concepts that satisfy the selected drivers
 <h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
 
 <h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
