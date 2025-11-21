@@ -96,7 +96,7 @@ In this iteration we will focus on refining the core structural elements needed 
 
 </table>
 
-<h2>Step 6</h2>
+<h2>Step 6: Sketch Views and Record Design Decisions</h2>
 <h3>UC-1</h3>
 <img width="618" height="686" alt="image" src="https://github.com/user-attachments/assets/1f1c8e3c-21d6-461c-8847-899aa65ee5b8" />
 <h3>UC-2</h3>
