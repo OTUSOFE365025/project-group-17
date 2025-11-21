@@ -1,6 +1,6 @@
-Iteration 1:
+<h1>Iteration 1</h1>
 
-Step 1: Confirm Inputs
+<h2>Step 1: Confirm Inputs</h2>
 
 Design Purpose:
 This is a greenfield system for a university environment. The purpose is to create a detailed architectural design for an AI-powered digital assistant platform (AIDAP) that supports students, staff, and lecturers while remaining secure, available, and accessible across devices.
@@ -55,7 +55,7 @@ CRN-3: Modular system for university ecosystem
 CRN-4: Minimize data loss and downtime through backups
 
 
-Step 2: Establish Iteration Goal by Selecting Drivers
+<h2>Step 2: Establish Iteration Goal by Selecting Drivers</h2>
 
 Since the AIDAP is a greenfield system, its important to establish structure as soon as possible.
 
@@ -70,14 +70,14 @@ These five drivers outline a basic structure and starting point for our design.
 Although these are our priority, other drivers are still important and may be adressed.
 
 
-Step 3: Choose Elements of the System to Refine
+<h2>Step 3: Choose Elements of the System to Refine</h2>
 
 We are going to focus on refiing the basic structure we need to create from scratch.
 <img width="638" height="359" alt="image" src="https://github.com/user-attachments/assets/045f2d1a-45af-49ee-a2d0-a17c9c2a31c4" />
 
 
 
-Step 4: Choose Design Concepts That Satisfy Selected Drivers
+<h2>Step 4: Choose Design Concepts That Satisfy Selected Drivers</h2>
 
 | Design Decision | Rationale              
 |--------------|-----------------------------------------
@@ -87,7 +87,7 @@ Step 4: Choose Design Concepts That Satisfy Selected Drivers
 | Use the Spring Framework | The Spring framework is a good choice for an AI web app. With easy integration with other frameworks as well as the recent release of the Spring AI extension for natural language understanding, modularity and ease of maintainance are two main benefits. Spring Security also supports our SSO sign in, encrypted communication and role-based access control. Spring's dependancy inversion approach also makes testing throughout the development cycle easier. (CRN-3, CON-4, UC-1)
 
 
-Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
+<h2>Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces</h2>
 
 | Design Decision | Rationale              
 |--------------|-----------------------------------------
@@ -95,14 +95,14 @@ Step 5: Instantiating Architectural Elements, Responsibilities, Interfaces
 |Create module bases to build application functionality | Creating a modular system that is expandible is of the utmost importance for this project. Taking advantage of the Swing Framework's modules and the Service Architecture back-end will create an outline of a seamless and responsive app. (CRN-3)
 
 
-Step 6: Sketch Views and Record Design Decisions
+<h2>Step 6: Sketch Views and Record Design Decisions</h2>
 
 <img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/2ba0b550-2813-458a-a367-33af9557d011" />
 
 <img width="668" height="824" alt="image" src="https://github.com/user-attachments/assets/063c9b9d-6a7e-4283-9656-c3f6734f15d8" />
 
 
-Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose
+<h2>Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</h2>
 
 | Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
 |---------------|----------------------|-----------------------|--------------------------------------------|
