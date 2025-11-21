@@ -1,9 +1,9 @@
 <h2>Step 2: Establish Iteration Goal </h2>
 The goal of this iteration is to identify and define sructures that directly support the primary use cases, and these include:
 UC-1
-CRN-1
-CON-1
-CON-3
+UC-2
+UC-3
+UC-4
 
 <h2>Step 3: Choose Elements of the System to Refine</h2>
 In this iteration we will focus on refining the core structural elements needed to establish the basic structure for AIDAP.
@@ -109,3 +109,29 @@ In this iteration we will focus on refining the core structural elements needed 
 <img width="678" height="549" alt="image" src="https://github.com/user-attachments/assets/2846d755-4d5e-4ef3-984a-cf39a7a0df8e" />
 
 <img width="569" height="383" alt="image" src="https://github.com/user-attachments/assets/1fbecf13-32f7-4629-97a3-24ef29f8113e" />
+
+
+<h2>Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</h2>
+
+| Not Addressed | Partially Addressed | Completely Addressed | Design Decisions Made During the Iteration |
+|---------------|----------------------|-----------------------|--------------------------------------------|
+|               |               |           UC-1              | Built authentication module.
+|        |                      |      UC-2                    | Built Maintainer Module.                                         |
+|          |                      |     UC-3                   | Authenticator module has role-based authentication.                                          |
+|          |       UC-4                |                       | Notification module is started however it is a low priority.                                            |
+|          |        UC-5                  |                    | AI framework is started, but a low priority while building system.                                          |
+|               | UC-6 |                                       | This will use the same notification system as UC-4 |
+|               | QA-1                |                       | No additional specific decisions made. |
+|               | QA-2                |                       | No additional specific decisions made.
+|               |      QA-3                |                       | Development of the RIA and the spring framework improve usability.                       |
+|             |    QA-4             |                               |  The modularity of the four-tier deployment and the spling framework make maintaining the system quick and easy with little downtime.     |
+|          |         QA-5              |                        |  Development of th epersonalization module improves adaptability.                   |
+| QA-6          |                      |                       | No relevant decisions made.                       |
+|               | CON-1               |                       | No additional specific decisions made. |
+|            CON-2 |               |                       |  No relevant decisions made. |
+|               | CON-3               |                       | No additional specific decisions made. |
+|               | CON-4               |                       | No additional specific decisions made. |
+|               | CRN-1               |                       | No additional specific decisions made. |
+|         |       CRN-2                |        | A strong deployment and framework help dampen the load of peak times.    |
+|         |              |           CRN-3              | No additional specific decisions made. |
+|       CRN-4        |                 |                       |  No relevant decisions made. |
