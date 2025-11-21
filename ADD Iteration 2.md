@@ -26,8 +26,7 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
       and device-independent UI behaviour. It enables dynamic page updates using AJAX,
       supports screen readers, and ensures consistent behavior across multiple device types.
       These refinements will help us shape the login interface, monitoring dashboards,
-      and administrative panels. <br><br>
-      <em>(UC-1, UC-2, UC-3, CON-1, CON-3, CRN-1)</em>
+      and administrative panels. (UC-1, UC-2, UC-3, CON-1, CON-3, CRN-1)
     </td>
   </tr>
 
@@ -36,8 +35,7 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
     <td>
       We extend the backend by assigning more specific responsibilities to the core services.
       Separating authentication, metric processing, and user-role administration keeps the
-      backend modular, secure, and easier to maintain as the application grows. <br><br>
-      <em>(UC-1, UC-2, UC-3, CRN-3, QA-1)</em>
+      backend modular, secure, and easier to maintain as the application grows. (UC-1, UC-2, UC-3, CRN-3, QA-1)
     </td>
   </tr>
 
@@ -47,8 +45,7 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
       We reuse and refine the four-tier structure introduced earlier by clearly mapping 
       each use case to the Client, API, Logic, and Database tiers. This structure increases
       security by isolating sensitive logic from public UI requests and allows clean routing
-      for sign-in, monitoring, and administrative workflows. <br><br>
-      <em>(UC-1, UC-2, UC-3, QA-2, QA-1, CON-4)</em>
+      for sign-in, monitoring, and administrative workflows. (UC-1, UC-2, UC-3, QA-2, QA-1, CON-4)
     </td>
   </tr>
 
@@ -58,8 +55,7 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
       Spring remains the foundation for defining backend modules. Its built-in authentication
       tools support SSO, while Spring Boot helps formalize metric retrieval. Dependency injection
       simplifies service wiring, and Spring’s modular structure positions AIDAP for future AI
-      capabilities. These refinements improve maintainability and scalability across the system. <br><br>
-      <em>(UC-1, UC-2, UC-3, QA-3, QA-4, CON-4)</em>
+      capabilities. These refinements improve maintainability and scalability across the system. (UC-1, UC-2, UC-3, QA-3, QA-4, CON-4)
     </td>
   </tr>
 
@@ -72,7 +68,6 @@ Step 4: Choosing Design Concepts that satisfy the selected drivers
   <tr>
     <td><strong>Module</strong></td>
     <td><strong>Description</strong></td>
-    <td><strong>Supported Drivers</strong></td>
   </tr>
 
   <tr>
