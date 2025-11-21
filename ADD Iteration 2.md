@@ -103,3 +103,9 @@ In this iteration we will focus on refining the core structural elements needed 
 <img width="738" height="702" alt="image" src="https://github.com/user-attachments/assets/67bacfc8-c614-4de6-b843-2815580e2952" />
 <h3>UC-3</h3>
 <img width="653" height="675" alt="image" src="https://github.com/user-attachments/assets/a5eee562-cc1f-4556-a9a1-e1f764ee474c" />
+
+<img width="659" height="829" alt="image" src="https://github.com/user-attachments/assets/1441ca80-4adb-44d4-946d-24c471303325" />
+
+<img width="678" height="549" alt="image" src="https://github.com/user-attachments/assets/2846d755-4d5e-4ef3-984a-cf39a7a0df8e" />
+
+<img width="569" height="383" alt="image" src="https://github.com/user-attachments/assets/1fbecf13-32f7-4629-97a3-24ef29f8113e" />
