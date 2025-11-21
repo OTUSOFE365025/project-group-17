@@ -117,6 +117,8 @@ We are going to focus on refiing the basic structure we need to create from scra
 |               | QA-1                |                       | Spring Security and backend separation support secure access and traceability. |
 |               | QA-2                |                       | Four-tier deployment provides foundation for redundancy and uptime. |
 | QA-3          |                      |                       | No relevant decisions made.                                            |
+|QA-4            |                      |                      | No relevant decisions made.                                            |
+|QA-5            |                      |                      | No relevant decisions made.                                            |
 | QA-6          |                      |                       | No relevant decisions made.                                            |
 |               | CON-1               |                       | RIA structure supports multi-device access. |
 | CON-2         |                      |                       | No relevant decisions made.                                            |
