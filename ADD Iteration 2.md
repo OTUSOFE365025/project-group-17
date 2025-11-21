@@ -10,8 +10,6 @@ In this iteration we will focus on refining the core structural elements needed 
 
 <h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
 
-<h2>Step 4: Choosing Design Concepts That Satisfy the Selected Drivers</h2>
-
 <table>
   <tr>
     <td><strong>Design Decision</strong></td>
