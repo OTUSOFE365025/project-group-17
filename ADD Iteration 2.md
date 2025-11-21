@@ -95,3 +95,11 @@ In this iteration we will focus on refining the core structural elements needed 
   </tr>
 
 </table>
+
+Step 6)
+UC1:
+<img width="618" height="686" alt="image" src="https://github.com/user-attachments/assets/1f1c8e3c-21d6-461c-8847-899aa65ee5b8" />
+UC2:
+<img width="738" height="702" alt="image" src="https://github.com/user-attachments/assets/67bacfc8-c614-4de6-b843-2815580e2952" />
+UC3:
+<img width="653" height="675" alt="image" src="https://github.com/user-attachments/assets/a5eee562-cc1f-4556-a9a1-e1f764ee474c" />
