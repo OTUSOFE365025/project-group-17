@@ -99,7 +99,8 @@ We are going to focus on refiing the basic structure we need to create from scra
 
 <img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/2ba0b550-2813-458a-a367-33af9557d011" />
 
-<img width="668" height="824" alt="image" src="https://github.com/user-attachments/assets/063c9b9d-6a7e-4283-9656-c3f6734f15d8" />
+<img width="638" height="822" alt="image" src="https://github.com/user-attachments/assets/1400166c-6cb7-43f6-84d0-b13ca2cd5204" />
+
 
 
 <h2>Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</h2>
