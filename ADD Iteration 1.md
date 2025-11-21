@@ -99,7 +99,8 @@ We are going to focus on refiing the basic structure we need to create from scra
 
 <img width="465" height="812" alt="image" src="https://github.com/user-attachments/assets/2ba0b550-2813-458a-a367-33af9557d011" />
 
-<img width="638" height="822" alt="image" src="https://github.com/user-attachments/assets/1400166c-6cb7-43f6-84d0-b13ca2cd5204" />
+<img width="672" height="555" alt="image" src="https://github.com/user-attachments/assets/3c24c63b-cdc0-474f-add4-352b0534468f" />
+
 
 
 
