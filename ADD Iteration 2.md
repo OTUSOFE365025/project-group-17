@@ -99,7 +99,7 @@ In this iteration we will focus on refining the core structural elements needed 
 <h2>Step 6</h2>
 <h3>UC-1</h3>
 <img width="618" height="686" alt="image" src="https://github.com/user-attachments/assets/1f1c8e3c-21d6-461c-8847-899aa65ee5b8" />
-<h3>UC2</h3>
+<h3>UC-2</h3>
 <img width="738" height="702" alt="image" src="https://github.com/user-attachments/assets/67bacfc8-c614-4de6-b843-2815580e2952" />
-<h3>UC3</h3>
+<h3>UC-3</h3>
 <img width="653" height="675" alt="image" src="https://github.com/user-attachments/assets/a5eee562-cc1f-4556-a9a1-e1f764ee474c" />
