@@ -11,4 +11,4 @@ in the cache will reduce response times greatly by reducing database queries.
 Load balancing will reduce the chances of a single server being overloaded during
 peak times such as students requesting their exam schedules around exam season.
 It will also increase throughput by having multiple servers to connect to and respond through.
-(QA-3, QA-6)
+(QA-2, QA-6)
