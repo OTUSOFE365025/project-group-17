@@ -1,5 +1,5 @@
 <h2>Step 2: Establish Iteration Goals by Selecting Drivers</h2>
-For this iteration, we would like to focus on QA- quality attribute scenario
+For this iteration, we would like to focus on QA-2, availability.
 
 
 
