@@ -13,34 +13,54 @@ These two go hand in hand, as a more efficent program will result in less downti
 For this iteration, we will be refining two physical nodes, the application server and the database server.
 
 
-<h2>Step 4: Choose one or more design concepts that satisfy the selected drivers</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Design decisions</th>
+      <th>Rationale</th>
+    </tr>
+  </thead>
 
-1: Implement the active redundancy tactic.
+  <tbody>
+    <tr>
+      <td><strong>Step 4: Choose one or more design concepts that satisfy the selected drivers</strong><br><br>
+      1: Implement the active redundancy tactic.</td>
 
-Implementing active redundancy will allow the system to run with caching and load balancing design concepts,
-preventing server overload craches while improving efficency, and creating multiple servers the application can run on
-in the event of a crash. The active redundancy tactic will give us the quickest restoration time, fulfiling QA-2's requirement
-of near instant recovery.
+      <td>
+      Implementing active redundancy will allow the system to run with caching and load balancing design concepts,
+      preventing server overload craches while improving efficency, and creating multiple servers the application can run on
+      in the event of a crash. The active redundancy tactic will give us the quickest restoration time, fulfiling QA-2's requirement
+      of near instant recovery.
+      </td>
+    </tr>
 
+    <tr>
+      <td><strong>Step 5: Instatiate architectural elements and responsibilities</strong><br><br>
+      1: Implement a cache-aside caching system.</td>
 
-<h2>Step 5: Instatiate architectural elements and responsibilities</h2>
+      <td>
+      A cache-aside system checks cache first, then queries the DB if requested answers are not found in cache. Frequently used data such
+      as commonly asked questions, exam schedules and course schedules may be kept in cache to reduce DB load. Althought the first uses of the system
+      may be slow as it learns what common questions are, over time db load will be lowest compared to other caching systems.
+      The cache-aside system is also the lightest caching system, requiring no extra writes to function and only saving frquently used data, unlike 
+      write-through caching. 
+      (QA-2, QA-6)
+      </td>
+    </tr>
 
-1: Implement a cache-aside caching system.
-A cache-aside system checks cache first, then queries the DB if requested answers are not found in cache. Frequently used data such
-as commonly asked questions, exam schedules and course schedules may be kept in cache to reduce DB load. Althought the first uses of the system
-may be slow as it learns what common questions are, over time db load will be lowest compared to other caching systems.
-The cache-aside system is also the lightest caching system, requiring no extra writes to function and only saving frquently used data, unlike 
-write-through caching. 
-(QA-2, QA-6)
+    <tr>
+      <td>2: Implement weighted round-robin load balancing.</td>
 
-2: Implement weighted round-robin load balancing.
-
-Servers are given requests and queries in order, based upon a weight value determined by capacity. 
-With emptier servers reciving more requests, the chances of one server slowing down or crashing is severely reduced.
-User sessions will have varying weight depending on complexity of question as well as if they require follow ups.
-Weighted round-robin was a better fit then least connections load balancing as chatbot connections can vary in their resource demands.
-(QA-2, QA-6)
-
+      <td>
+      Servers are given requests and queries in order, based upon a weight value determined by capacity. 
+      With emptier servers reciving more requests, the chances of one server slowing down or crashing is severely reduced.
+      User sessions will have varying weight depending on complexity of question as well as if they require follow ups.
+      Weighted round-robin was a better fit then least connections load balancing as chatbot connections can vary in their resource demands.
+      (QA-2, QA-6)
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <h2>Step 6: Sketch Views and Record Design Decisions</h2>
 
