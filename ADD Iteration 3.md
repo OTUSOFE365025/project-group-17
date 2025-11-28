@@ -1,5 +1,6 @@
 <h2>Step 2: Establish Iteration Goals by Selecting Drivers</h2>
-For this iteration, we would like to focus on QA-2, availability.
+For this iteration, we would like to focus on QA-2, availability:
+The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.
 
 
 
