@@ -22,23 +22,10 @@ Implement the active redundancy tactic | Implementing active redundancy will all
 
 <h2>Step 5: Instatiate architectural elements and responsibilities</h2>
 
-1: Implement a cache-aside caching system.
-A cache-aside system checks cache first, then queries the DB if requested answers are not found in cache. Frequently used data such
-as commonly asked questions, exam schedules and course schedules may be kept in cache to reduce DB load. Althought the first uses of the system
-may be slow as it learns what common questions are, over time db load will be lowest compared to other caching systems.
-The cache-aside system is also the lightest caching system, requiring no extra writes to function and only saving frquently used data, unlike 
-write-through caching. 
-(QA-2, QA-6)
-
-2: Implement weighted round-robin load balancing.
-
-Servers are given requests and queries in order, based upon a weight value determined by capacity. 
-With emptier servers reciving more requests, the chances of one server slowing down or crashing is severely reduced.
-User sessions will have varying weight depending on complexity of question as well as if they require follow ups.
-Weighted round-robin was a better fit then least connections load balancing as chatbot connections can vary in their resource demands.
-(QA-2, QA-6)
-
-Make this a table for the github md file using the html tag notation. Keep all words the same, make the table headers be Design decisions on the left and Rationale on the right
+| **Design Decision** | **Rationale** |
+|---------------------|---------------| 
+1: Implement a cache-aside caching system. | A cache-aside system checks cache first, then queries the DB if requested answers are not found in cache. Frequently used data such as commonly asked questions, exam schedules and course schedules may be kept in cache to reduce DB load. Althought the first uses of the system may be slow as it learns what common questions are, over time db load will be lowest compared to other caching systems. The cache-aside system is also the lightest caching system, requiring no extra writes to function and only saving frquently used data, unlike write-through caching. (QA-2, QA-6) |
+| 2: Implement weighted round-robin load balancing. | Servers are given requests and queries in order, based upon a weight value determined by capacity. With emptier servers reciving more requests, the chances of one server slowing down or crashing is severely reduced. User sessions will have varying weight depending on complexity of question as well as if they require follow ups. Weighted round-robin was a better fit then least connections load balancing as chatbot connections can vary in their resource demands. (QA-2, QA-6) |
 
 <h2>Step 6: Sketch Views and Record Design Decisions</h2>
 
