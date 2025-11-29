@@ -17,8 +17,7 @@ For this iteration, we will be refining two physical nodes, the application serv
 
 | **Design Decision** | **Rationale** |
 |---------------------|---------------|
-| **Step 4: Choose one or more design concepts that satisfy the selected drivers**  
-1: Implement the active redundancy tactic. | Implementing active redundancy will allow the system to run with caching and load balancing design concepts, preventing server overload craches while improving efficency, and creating multiple servers the application can run on in the event of a crash. The active redundancy tactic will give us the quickest restoration time, fulfiling QA-2's requirement of near instant recovery. |
+Implement the active redundancy tactic | Implementing active redundancy will allow the system to run with caching and load balancing design concepts, preventing server overload craches while improving efficency, and creating multiple servers the application can run on in the event of a crash. The active redundancy tactic will give us the quickest restoration time, fulfiling QA-2's requirement of near instant recovery. |
 
 
 <h2>Step 5: Instatiate architectural elements and responsibilities</h2>
