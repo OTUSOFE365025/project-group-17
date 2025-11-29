@@ -7,36 +7,36 @@ AD3: Weighted Round-Robin Load Balancing<br>
 AD4: Monitering & Logging<br>
 AD5: Maintenance Strategy<br>
 
-Sensitivity:
-S1: Cache hit ratio
-S2: Load balancing weights
-S3: Fallover Speed
-S4: Network Latency
-S5: Database bottlenecks
+Sensitivity:<br>
+S1: Cache hit ratio<br>
+S2: Load balancing weights<br>
+S3: Fallover Speed<br>
+S4: Network Latency<br>
+S5: Database bottlenecks<br>
 
-Tradeoff:
-T1: Cache-aside vs. write-through cache 
-T2: Weighted round-robin vs. least connections
-T3: Active redunduncy vs. cost/complexity 
-T4: Performance vs. consistency 
+Tradeoff:<br>
+T1: Cache-aside vs. write-through cache <br>
+T2: Weighted round-robin vs. least connections<br>
+T3: Active redunduncy vs. cost/complexity <br>
+T4: Performance vs. consistency <br>
 
-Risk:
-R1: Cache warm-up lag
-R2: Stale/invalid cache enteries
-R3: Fallover misconfig
-R4: Uneven load distribution
-R5: Operational overhead
-R6: Network partitioning
+Risk:<br>
+R1: Cache warm-up lag<br>
+R2: Stale/invalid cache enteries<br>
+R3: Fallover misconfig<br>
+R4: Uneven load distribution<br>
+R5: Operational overhead<br>
+R6: Network partitioning<br>
 
-Nonrisk:
-NR1: Security exposure
-NR2: Data durability
-NR3: User session continuity 
-NR4: Scheduled maintenance 
+Nonrisk:<br>
+NR1: Security exposure<br>
+NR2: Data durability<br>
+NR3: User session continuity <br>
+NR4: Scheduled maintenance <br>
 
-Scanario: QA2
-Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.
-Stimulus: fault or maintenance event
+Scanario: QA2<br>
+Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.<br>
+Stimulus: fault or maintenance event<br>
 Enviroment:
 Response:
 
