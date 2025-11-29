@@ -36,11 +36,12 @@ NR4: Scheduled maintenance <br>
 <br>
 <table>
   <tr><td>Scenario</td><td>QA2</td></tr>
+  <tr><td>Scenario Description</td><td>The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.</td></tr>
+  <tr><td>Stimulus</td><td>Fault or maintenance event</td></tr>
+  <tr><td>Enviroment</td><td>System running as required; redundant servers, monitering tools, and maintenance in order.</td></tr>
+  <tr><td>Response</td><td>Fault/maintenance detcted, users experience minimal disruption (<0.5% availibility), instant failover </td></tr>
 </table>
-Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.<br>
-Stimulus: fault or maintenance event<br>
-Enviroment: system running as required; redundant servers, monitering tools, and maintenance in order. <br>
-Response: fault/maintenance detcted, users experience minimal disruption (<0.5% availibility), instant failover <br>
+
 
 <table>
   <thead>
