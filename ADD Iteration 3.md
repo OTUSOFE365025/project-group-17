@@ -30,6 +30,8 @@ Implement a cache-aside caching system | A cache-aside system checks cache first
 
 <h2>Step 6: Sketch Views and Record Design Decisions</h2>
 
+<img width="839" height="738" alt="image" src="https://github.com/user-attachments/assets/0d4cbbe8-395f-4073-9a92-9c3eb6755c38" />
+
 
 <h2>Step 7:  Perform Analysis of Current Design and Review Iteration Goal and Achievement of Design Purpose</h2>
 
