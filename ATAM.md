@@ -34,8 +34,9 @@ NR2: Data durability<br>
 NR3: User session continuity <br>
 NR4: Scheduled maintenance <br>
 <br>
-
-Scanario: QA2<br>
+<table>
+  <tr><td>Scenario</td><td>QA2</td></tr>
+</table>
 Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.<br>
 Stimulus: fault or maintenance event<br>
 Enviroment: system running as required; redundant servers, monitering tools, and maintenance in order. <br>
