@@ -51,103 +51,19 @@ NR4: Scheduled maintenance <br>
   </thead>
   <tbody>
     <tr>
-      <td>AD1</td>
-      <td>
-        S3<br>
-        S4
-      </td>
-      <td>
-        T3
-      </td>
-      <td>
-        R3<br>
-        R5<br>
-        R6
-      </td>
-      <td>
-        NR1<br>
-        NR2<br>
-        NR4
-      </td>
+      <td>AD1</td><td>S3<br>S4</td><td>T3</td><td>R3<br>R5<br>R6</td><td>NR1<br>NR2<br>NR4</td>
     </tr>
     <tr>
-      <td>AD2</td>
-      <td>
-        S1<br>
-        S5
-      </td>
-      <td>
-        T1<br>
-        T4
-      </td>
-      <td>
-        R1<br>
-        R2
-      </td>
-      <td>
-        NR1<br>
-        NR2<br>
-        NR4
-      </td>
+      <td>AD2</td><td>S1<br>S5</td><td>T1<br>T4</td><td>R1<br>R2</td><td>NR1<br>NR2<br>NR4</td>
     </tr>
     <tr>
-      <td>AD3</td>
-      <td>
-        S2<br>
-        S4
-      </td>
-      <td>
-        T2
-      </td>
-      <td>
-        R4<br>
-        R5
-      </td>
-      <td>
-        NR1<br>
-        NR2<br>
-        NR3
-      </td>
+      <td>AD3</td><td>S2<br>S4</td><td>T2</td><td>R4<br>R5</td><td>NR1<br>NR2<br>NR3</td>
     </tr>
     <tr>
-      <td>AD4</td>
-      <td>
-        S1<br>
-        S2<br>
-        S3
-      </td>
-      <td>
-        T3 (indirect)<br>
-        T4
-      </td>
-      <td>
-        R5<br>
-        R3
-      </td>
-      <td>
-        NR1<br>
-        NR2<br>
-        NR4
-      </td>
+      <td>AD4</td><td>S1<br>S2<br>S3</td><td>T3 (indirect)<br>T4</td><td>R5<br>R3</td><td>NR1<br>NR2<br>NR4</td>
     </tr>
     <tr>
-      <td>AD5</td>
-      <td>
-        S3<br>
-        S4
-      </td>
-      <td>
-        T3
-      </td>
-      <td>
-        R3<br>
-        R6
-      </td>
-      <td>
-        NR1<br>
-        NR2<br>
-        NR4
-      </td>
+      <td>AD5</td><td>S3<br>S4</td><td>T3</td><td>R3<br>R6</td><td>NR1<br>NR2<br>NR4</td>
     </tr>
   </tbody>
 </table>
