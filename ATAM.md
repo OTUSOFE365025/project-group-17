@@ -33,14 +33,13 @@ NR1: Security exposure<br>
 NR2: Data durability<br>
 NR3: User session continuity <br>
 NR4: Scheduled maintenance <br>
+<br>
 
-*TABLE*
-
-Scanario: QA2
-Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.
-Stimulus: fault or maintenance event
-Enviroment: system running as required; redundant servers, monitering tools, and maintenance in order. 
-Response: fault/maintenance detcted, users experience minimal disruption (<0.5% availibility), instant failover 
+Scanario: QA2<br>
+Scenario Description: The system should remain operational and accessible 99.5% of the time or higher. Scheduled maintenance should cause minimal disruption, and automatic failover mechanisms should recover from crashes or downtime instantly to maintain continuous service availability.<br>
+Stimulus: fault or maintenance event<br>
+Enviroment: system running as required; redundant servers, monitering tools, and maintenance in order. <br>
+Response: fault/maintenance detcted, users experience minimal disruption (<0.5% availibility), instant failover <br>
 
 <table>
   <thead>
