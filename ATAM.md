@@ -1,6 +1,6 @@
 ATAM Procedure
 
-Architectural Decisions:/n
+Architectural Decisions:<br>
 AD1: Active Redundancy
 AD2: Cache-Aside Caching
 AD3: Weighted Round-Robin Load Balancing
