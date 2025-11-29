@@ -1,4 +1,4 @@
-ATAM Procedure
+<h1>ATAM Procedure</h1>
 
 Architectural Decisions:<br>
 AD1: Active Redundancy<br>
